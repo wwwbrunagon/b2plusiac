@@ -1,23 +1,21 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "B++ {IaC} — Platform Governance",
-  author: "B++ {IaC} |  Bruna Gonçalves | DevEx ",
+  title: "B++ {IaC}  ",
+  author: "Bruna Gonçalves | Dev ",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Developer Experience, Platform Governance, Opensource, Backstage",
   lang: "en",
   siteLogo: "/b2plus-small.png",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
+    // { text: "Projects", href: "#projects" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/company/b2plusiac/" },
+    { text: "Github", href: "https://github.com/wwwbrunagon" },
+    // { text: "Twitter", href: "https://github.com/immois/astro-zen" },
+    // { text: "Youtube", href: "https://github.com/immois/astro-zen" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -28,40 +26,48 @@ export const SITE_CONTENT: SiteContent = {
     name: "B++ {IaC} ",
     specialty: "Platform Governance",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "contact@b2plusIaC.tech",
+      "Designs open-source internal developer portals powered by Spotify's Backstage™, merging platform engineering, governance, and green-cloud optimization, enabling product teams to innovate effortlessly.",
+    email: "contact@b2plusiac.tech",
   },
-  experience: [
-    {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
-      summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
-      ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
-  ],
+  about: {
+    description: `
+        B++ {IaC} is a boutique platform-engineering studio committed to the power of open-source technologies and green-cloud solutions. Leveraging Spotify’s Backstage™, the team turns sprawling toolchains into a single internal developer portal (IDP) that accelerates delivery while reducing environmental impact.
+
+        <br><br>
+
+        <h3 class="mt-2 text-xl font-semibold text-human--touch">Mission</h3>
+        <p class="mt-3">
+          To help engineering organisations ship boldly and govern wisely by unifying service catalogues, CI/CD golden paths, and observability dashboards under one Backstage roof—always with open-source best practices and eco-efficient cloud workloads at the core.
+        </p>
+
+        <h3 class="mt-9 text-xl font-semibold text-human--touch">Why enterprises choose B++ {IaC}</h3>       
+        <ul class="ml-2 mt-3 list-disc list-inside">
+          <li class="mt-4">Open-source DNA – Custom Backstage plugins, Kubernetes operators, and IaC modules released to the community.</li>
+          <li class="mt-4">Green-cloud mindset – Rightsizing workloads, visualising CO₂ impact, and optimising for sustainable compute.</li>
+          <li class="mt-4">Proven platform-engineering expertise – 8+ years designing cloud-native architectures for fintech, e-commerce, and SaaS scale-ups.</li>
+          <li class="mt-4">Governance built-in – Automated policy gates, dependency insights, and compliance checks woven directly into pipelines.</li>
+          <li class="mt-4">Fast, measurable results – Clients typically slash onboarding time by 85% and double release cadence within the first quarter.</li>
+        </ul>
+
+        <h3 class="mt-9 text-xl font-semibold text-human--touch">How B++ {IaC} works</h3>
+        
+        <ol class="ml-1 mt-3 list-decimal list-inside">
+          <li class="mt-2"><strong>Discover: </strong>Assess current toolchains, DevOps workflows, and cloud carbon footprint.</li>
+          <li class="mt-2"><strong>Design: </strong>Map a Backstage architecture, golden paths, and sustainability strategy tailored to the organisation.</li>
+          <li class="mt-2"><strong>Deliver: </strong>Implement, migrate services, and train teams—while tracking ROI and green-cloud metrics.</li>
+          <li class="mt-2"><strong>Evolve: </strong>Continuous optimisation sprints keep the portal, policies, and plugins ahead of growth and climate goals.</li>
+        </ol>
+
+        <p class="mt-8 font-medium">
+          Ready to transform developer experience sustainably?
+        </p>
+        <a href="https://brunagon.vercel.app/book-meeting"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-block ml-0 mt-4 border border-current text-seed--oflife text-xl font-semibold py-1 px-3 rounded hover:opacity-60">Book a discovery call →</a>
+
+      `,
+    image: "",
+  },
   projects: [
     {
       name: "Spotifu Music",
@@ -85,12 +91,4 @@ export const SITE_CONTENT: SiteContent = {
       image: "/clone-ig.png",
     },
   ],
-  about: {
-    description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "",
-  },
 };

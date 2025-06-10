@@ -5,23 +5,25 @@ type Props = HeroProps;
 const { name, specialty, summary, email } = Astro.props;
 ---
 
-<section class="py-5 md:py-32" id="#hero">
+<section class="py-5 md:py-18" id="#hero">
   <h1
-    class="mb-1.5 font-serif text-7xl font-bold tracking-tightest text-white sm:text-8xl md:mb-0 md:text-9xl"
+    class="mb-1.5 font-serif text-7xl font-semibold tracking-tightest text-white sm:text-8xl md:mb-0 md:text-9xl"
   >
     {name}
   </h1>
   <p
-    class="mb-9 font-serif text-4xl leading-[46px] font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl"
+    class="mb-9 font-serif text-4xl leading-[46px] tracking-tighter text-human--touch sm:text-5xl md:text-6xl"
   >
     {specialty}
   </p>
-  <p class="mb-16 text-base font-normal text-neutral md:text-lg">
+  <p class="mb-10 text-base font-normal text-neutral md:text-lg">
     {summary}
   </p>
 
   <a
-    class="inline-block rounded-full bg-primary px-8 py-5 text-sm leading-5 font-medium text-[#fff]"
-    href={`mailto:${email}`}>Get in Touch</a
+    class="inline-block rounded-full bg-seed--oflife px-5 py-3 text-sm leading-3 font-medium text-[#fff]"
+    href={"https://brunagon.vercel.app/"}
+    target="_blank"
+    rel="noopener noreferrer">Get in Touch</a
   >
 </section>
