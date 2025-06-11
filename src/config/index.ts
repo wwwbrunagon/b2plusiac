@@ -14,11 +14,11 @@ export const SITE_CONFIG: SiteConfig = {
   socialLinks: [
     { text: "LinkedIn", href: "https://www.linkedin.com/company/b2plusiac/" },
     { text: "Github", href: "https://github.com/wwwbrunagon" },
-    // { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    // { text: "Youtube", href: "https://github.com/immois/astro-zen" },
+    // { text: "Twitter", href: "" },
+    // { text: "Youtube", href: "" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://b2plusiac.tech/",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -73,21 +73,21 @@ export const SITE_CONTENT: SiteContent = {
       name: "Spotifu Music",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "",
       image: "/spotifu.png",
     },
     {
       name: "Shopp App",
       summary: "An e-commerce platform that replicates Shopify's key features.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "",
       image: "/shopify-clon.png",
     },
     {
       name: "ClonTagram",
       summary: "A social network that replicates the features of Instagram",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "",
       image: "/clone-ig.png",
     },
   ],
