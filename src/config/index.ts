@@ -42,14 +42,25 @@ export const SITE_CONTENT: SiteContent = {
 
         <h3 class="mt-9 text-xl font-semibold text-human--touch">Why enterprises choose B++ {IaC}</h3>       
         <ul class="ml-2 mt-3 list-disc list-inside">
-          <li class="mt-4">Open-source DNA – Custom Backstage plugins, Kubernetes operators, and IaC modules released to the community.</li>
-          <li class="mt-4">Green-cloud mindset – Rightsizing workloads, visualising CO₂ impact, and optimising for sustainable compute.</li>
-          <li class="mt-4">Proven platform-engineering expertise – 8+ years designing cloud-native architectures for fintech, e-commerce, and SaaS scale-ups.</li>
-          <li class="mt-4">Governance built-in – Automated policy gates, dependency insights, and compliance checks woven directly into pipelines.</li>
-          <li class="mt-4">Fast, measurable results – Clients typically slash onboarding time by 85% and double release cadence within the first quarter.</li>
+          <li class="mt-4">
+          Open-source DNA: Custom Backstage plugins, Kubernetes operators, and IaC modules released to the community.
+          </li>          
+          <li class="mt-4"> 
+          Green-cloud mindset: Rightsizing workloads, visualising CO₂ impact, and optimising for sustainable compute.
+          </li>
+          <li class="mt-4"> 
+          Proven platform-engineering expertise: 8+ years designing cloud-native architectures for fintech, e-commerce, and SaaS scale-ups.
+          </li>
+          <li class="mt-4"> 
+          Governance built-in: Automated policy gates, dependency insights, and compliance checks woven directly into pipelines.
+          </li>
+          <li class="mt-4"> 
+          Fast, measurable results: Clients typically slash onboarding time by 85% and double release cadence within the first quarter.
+          </li>
         </ul>
 
-        <h3 class="mt-9 text-xl font-semibold text-human--touch">How B++ {IaC} works</h3>
+        <h3 class="mt-9 text-xl font-semibold text-human--touch">
+        How B++ {IaC} works</h3>
         
         <ol class="ml-1 mt-3 list-decimal list-inside">
           <li class="mt-2"><strong>Discover: </strong>Assess current toolchains, DevOps workflows, and cloud carbon footprint.</li>
